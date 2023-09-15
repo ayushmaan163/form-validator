@@ -96,3 +96,31 @@ h2 {
   padding: 7px;
   width: 100%;
 }
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    width: 280px;
+  }
+  .form-control input {
+    padding: 5px;
+    font-size: 12px;
+  }
+  .form-control label {
+    padding-bottom: 5px;
+  }
+  .form-control {
+    padding-bottom: 7px;
+  }
+  .form button {
+    font-size: 15px;
+  }
+  .form {
+    padding: 10px 20px;
+  }
+}
